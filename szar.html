@@ -1,26 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>szar</title>
-	<script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
+    <title>szar</title>
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
 </head>
 <body>
-			<input type="text" list="colors" id="asd">
-		<datalist id="colors">
-		    <option value="red">
-		    <option value="blue">
-		    <option value="green">
-		    <option value="yellow">
-		    <option value="black">
-		  </datalist>
-		  <button onclick="change()">change</button>
-		  <script>
-		  	function change(){
-		  		$('body').css("background-color",$("#asd").val())
-		  	}
-		  </script>
+<input type="text" list="colors" id="asd">
+<datalist id="colors">
+    <option value="red">
+    <option value="blue">
+    <option value="green">
+    <option value="yellow">
+    <option value="black">
+</datalist>
+<button onclick="change()">change</button>
+<script>
+    function change() {
+        $('body').css("background-color", $("#asd").val())
+    }
+</script>
 </body>
 </html>
